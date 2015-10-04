@@ -19,8 +19,9 @@ class Route53Resource(AWSResource):
 
     @property
     def arn(self):
-        return 'arn:aws:%s:::%s/%s' % (
-            self._client.service_name, self.resourcetype, self.id)
+        return 'arn:aws:%s::%s:%s/%s' % (
+            self._client.service_name, self._client.account_id,
+            self.resourcetype, self.id)
 
 
 class HostedZone(Route53Resource):

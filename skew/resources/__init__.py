@@ -23,6 +23,7 @@ ResourceTypes = {
     'aws.dynamodb.table': 'aws.dynamodb.Table',
     'aws.ec2.address': 'aws.ec2.Address',
     'aws.ec2.customer-gateway': 'aws.ec2.CustomerGateway',
+    'aws.ec2.dhcp-option': 'aws.ec2.DhcpOption',
     'aws.ec2.key-pair': 'aws.ec2.KeyPair',
     # 'aws.ec2.image': 'aws.ec2.Image',
     'aws.ec2.instance': 'aws.ec2.Instance',
