@@ -5,10 +5,10 @@ from setuptools import setup, find_packages
 import os
 
 requires = [
-    'boto3>=1.2.3',
-    'six>=1.9.0',
+    'boto3>=1.9.174',
+    'six>=1.12.0',
     'python-dateutil>=2.1,<3.0.0',
-    'PyYAML==3.11']
+    'PyYAML>=3.10,<=3.13']
 
 
 here = os.path.dirname(os.path.realpath(__file__))
@@ -36,10 +36,13 @@ setup(
         'Natural Language :: English',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4'
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ),
 )
